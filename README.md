@@ -22,17 +22,17 @@ The project is run using the main.py file. The user can use the following comman
 
 To run the project, navigate to the project directory in the terminal and run the following commands:
 
-```python3 main.py parse https://www.yourfeed.com/xml```
+```python main.py parse https://www.yourfeed.com/xml```
     
-```python3 main.py view_all```
+```python main.py view_all```
     
-```python3 main.py read https://www.yourfeed.com/xml```
+```python main.py read https://www.yourfeed.com/xml```
     
-```python3 main.py findfeed https://www.yoursite.com```
+```python main.py findfeed https://www.yoursite.com```
     
-```python3 main.py delete https://www.yourfeed.com/xml```
+```python main.py delete https://www.yourfeed.com/xml```
     
-```python3 main.py classify ttps://www.yourfeed.com/xml```
+```python main.py classify ttps://www.yourfeed.com/xml```
 
 
 ## Contributing
