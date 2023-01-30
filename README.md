@@ -1,6 +1,6 @@
 # rss-feed-open-ai
 ## Introduction
-This project is a simple RSS Feed Database that allows users to add, parse, view all, read, find feeds in a specific website, delete, and classify feeds with OpenAI Completion API. The project has the following files: main.py, command.py, handler.py, database.py, and findfeed.py. The database is SQLite.
+This project is a simple RSS Feed Database created with ChatGPT, that allows users to add, parse, view all, read, find feeds in a specific website, delete, and classify feeds with OpenAI Completion API. The project has the following files: main.py, command.py, handler.py, database.py, and findfeed.py. The database is SQLite.
 
 ## Prerequisites
 To use the project, you will need to have the following installed:
