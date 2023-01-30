@@ -20,22 +20,19 @@ The project is run using the main.py file. The user can use the following comman
 - **delete**: Deletes an RSS feed from the database
 - **classify**: Classifies the entries of an RSS feed with OpenAI Completion API. Add your OpenAI API key in handler.py to make that work. Currently only prints the completion result.
 
-To run the project, navigate to the project directory in the terminal and run the following command:
+To run the project, navigate to the project directory in the terminal and run the following commands:
 
-
-    python3 main.py add https://www.yourfeed.com/xml
+```python3 main.py parse https://www.yourfeed.com/xml```
     
-    python3 main.py parse https://www.yourfeed.com/xml
+```python3 main.py view_all```
     
-    python3 main.py view_all
+```python3 main.py read https://www.yourfeed.com/xml```
     
-    python3 main.py read https://www.yourfeed.com/xml
+```python3 main.py findfeed https://www.yoursite.com```
     
-    python3 main.py findfeed https://www.yoursite.com
+```python3 main.py delete https://www.yourfeed.com/xml```
     
-    python3 main.py delete https://www.yourfeed.com/xml
-    
-    python3 main.py classify ttps://www.yourfeed.com/xml
+```python3 main.py classify ttps://www.yourfeed.com/xml```
 
 
 ## Contributing
