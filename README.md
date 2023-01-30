@@ -16,7 +16,7 @@ The project is run using the main.py file. The user can use the following comman
 - **parse**: Parses an RSS feed and adds its items to the database
 - **view_all**: Views all the added RSS feeds in the database
 - **read**: Reads the added RSS feed items from the database
-- **findfeed**: Finds an RSS feed on a website and adds it to the database if exists
+- **findfeed**: Finds an RSS feed on a website and adds it to the database if exists. Forked from https://gist.github.com/alexmill/9bc634240531d81c3abe#file-python3feedfinder 
 - **delete**: Deletes an RSS feed from the database
 - **classify**: Classifies the entries of an RSS feed with OpenAI Completion API. Add your OpenAI API key in handler.py to make that work. Currently only prints the completion result.
 
